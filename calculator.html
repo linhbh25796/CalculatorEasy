@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<table>
+
+    <tr>
+        <input type="text" id="txtNumber1" placeholder="Input number 1" value="">
+        <input type="text" id="txtNumber2" placeholder="Input number 2" value="">
+    </tr>
+    <tr class="btn">
+        <td>
+            <button type="button" id="btnCong" onclick="tinhToan(this)">Addition</button>
+        </td>
+        <td>
+            <button type="button" id="btnTru" onclick="tinhToan(this)">Subtraction</button>
+        </td>
+        <td>
+            <button type="button" id="btnNhan" onclick="tinhToan(this)">Multiplication</button>
+        </td>
+        <td>
+            <button type="button" id="btnChia" onclick="tinhToan(this)">Division</button>
+        </td>
+    </tr>
+    <tr>
+        <td>Result:<p style="margin: auto" id="result"></p></td>
+    </tr>
+
+</table>
+
+<script src="tinhToan.js"></script>
+</body>
+</html>
